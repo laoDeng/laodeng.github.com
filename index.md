@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Welcome
-tagline: My girlfriend!
+title: Galatica
+tagline: The battlestar always in my heart.
 ---
 {% include JB/setup %}
 
