@@ -1,0 +1,51 @@
+  [1mNAME[0m:
+
+    jekyll
+
+  [1mDESCRIPTION[0m:
+
+    Jekyll is a blog-aware, static site generator in Ruby
+
+  [1mCOMMANDS[0m:
+	
+    build                Build your site		
+    default              		
+    docs                 Launch local server with docs for Jekyll v1.5.1		
+    doctor               Search site and print specific deprecation
+warnings		
+    help                 Display global or [command] help documentation.			
+    import               Import your old blog to Jekyll		
+    new                  Creates a new Jekyll site scaffold in PATH		
+    serve                Serve your site locally		
+
+  [1mALIASES[0m:
+  
+    hyde                 doctor   
+    server               serve   
+
+  [1mGLOBAL OPTIONS[0m:
+	
+    -s, --source [DIR] 
+        Source directory (defaults to ./)
+	
+    -d, --destination [DIR] 
+        Destination directory (defaults to ./_site)
+	
+    --safe 
+        Safe mode (defaults to false)
+	
+    -p, --plugins PLUGINS_DIR1[,PLUGINS_DIR2[,...]] 
+        Plugins directory (defaults to ./_plugins)
+	
+    --layouts DIR 
+        Layouts directory (defaults to ./_layouts)
+	
+    -h, --help 
+        Display help documentation
+	
+    -v, --version 
+        Display version information
+	
+    -t, --trace 
+        Display backtrace when an error occurs
+	

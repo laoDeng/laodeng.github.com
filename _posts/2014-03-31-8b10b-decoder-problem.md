@@ -34,7 +34,8 @@ IEEE 802.3 8B/10B编解码内容
 RD运算的基本结构：last_code_group_RD -> 6B_sub-block -> 6B_RD -> 4B_sub-block -> 4B_RD(new_last_code_group_RD)。
 
 每个sub-block的判断可用以下伪代码表示（6B和4B略有不同）：
-```
+
+~~~
 if 000111 or 0011 or 1s>0s
 6B_RD=+;RD_4B=+;
 else if 111000 or 1100 or 1s<0s
@@ -43,7 +44,7 @@ else
 6B_RD=last_code_group_RD;
 4B_RD=6B_RD;
 endif
-```
+~~~
 
 最后提到了RD错误，在协议附录<span>Annex 36B</span>中给出了一些接收当中的RD错误。
 可以发现，RD错误是不能精确定位的，它的检测主要是通过接收机本地的RD和所接收到的RD不符所产生的错误。
